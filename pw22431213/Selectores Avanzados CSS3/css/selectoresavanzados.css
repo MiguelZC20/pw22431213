@@ -1,0 +1,75 @@
+img[alt]{
+    border: 5px solid blue;
+}
+img[src="img/logo.png"]{
+    width: 400px;
+}
+img[src^="img/"]{
+    width: 150px;
+}
+img[src$="png"]{
+    width: 250px;
+}
+img[src*="mg/"]{
+    width: 100px;
+}
+/*equivalente a:
+.resaltado
+.ingles
+.archivo*/
+article[class~="resaltado"]{
+    border: 1px dashed blue;
+}
+article[class~="ingles"]{
+    border: 1px dashed red;
+}
+article[class~="resaltado"]{
+    border: 1px dashed green;
+}
+
+article[class|="ingles"]{
+    text-align: center;
+}
+/*hijos directos*/
+div > p{
+    color: blue;
+}
+/*todos los hijos*/
+div p{
+    color: red;
+}
+/*solo toma el primer elemento*/
+h2 + p{
+    color: gray;
+}
+/*toma todos los elementos*/
+h2 ~ p{
+    color: green;
+}
+
+#resumen,#experimentos,#pruebas,#resultados,#conclusiones{
+    color: red;
+}
+
+/*las que no quiero*/
+section:not(#referencias){
+    color: blue;
+}
+
+li:nth-child(odd){ /*impar*/
+    color: green;
+}
+li:nth-child(even){ /*pares*/
+    color: blue;
+}
+li:nth-child(5){ /*quinto elemento*/
+    color: red;
+}
+li:nth-last-child(2){
+    color: purple;
+}
+
+p::first-line{
+    color: red;
+    font-weight: bold;
+}
