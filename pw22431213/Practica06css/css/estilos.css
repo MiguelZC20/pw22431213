@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 723px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px,1fr));
+    background: black;
+    color: white;
+    padding: 10px 0px;
+}
+.header img{
+    width: 30px;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.botonesheader{
+    text-align: right;
+    margin-right: 20px;
+}
+.submit{
+    background: rgb(50, 48, 48);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.sign{
+    background: rgb(20, 100, 175);
+    color: white;
+    border: 1px solid rgb(20, 100, 175);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.branches{
+    margin-left: 70px;
+}
+.account{
+    margin-left: 70px;
+}
+.projects{
+    margin-left: 70px;
+}
+.billing{
+    margin-left: 70px;
+}
+.authenticate{
+    margin-left: 70px;
+}
+.support{
+    margin-left: 70px;
+}
+.textos img{
+    width: 50px;
+    vertical-align: top;
+    float: left;
+}
+.textos{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(140px,1fr));
+    grid-template-rows: repeat(2, minmax(140px,1fr));  
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.navbar{
+    background: rgb(235, 228, 251);
+    padding: 50px 10px;
+    text-align: center;
+}
+.navbar input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 0.8em;
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    grid-template-columns: repeat(5, minmax(140px,1fr));
+    padding: 20px 15px 30px;
+}
+.footer article{
+    margin-left: 10px;
+}
+.footer img{
+    width: 25px;
+    text-align: left;
+}
+.footer article:nth-child(5){
+    padding-top: 60px;
+}
+.letragrande{
+    font-size: 2em;
+}
+.letratextos{
+    font-size: 0.9em;
+}
+.titulosfooter{
+    font-size: 1.5em;
+}
+.info-contacto{
+    font-size: 0.9em;
+}
+.nito{
+    font-weight: bold;
+}
+.learn-more{
+    color: rgb(35,92,146);
+}
