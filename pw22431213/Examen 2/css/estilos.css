@@ -1,0 +1,216 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+.copy-info{
+    margin-right: 100px;
+}
+.logo-library{
+    margin-right: 100px;
+}
+.footer{
+    grid-area: footer;
+    background: rgb(30, 36, 69);
+    color: white;
+}
+.footer-texto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 80px;
+    gap: 100;
+}
+.footer-texto img{
+    width: 50px;
+}
+.footer-secciones{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    gap: 100px;
+}
+.contact{
+    font-size: 0.9em;
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: gold;
+}
+.contact img{
+    width: 200px;
+}
+.support img{
+    width: 50px;
+    float: right;
+    margin: 10px 10px;
+}
+.header{
+    grid-area: header;
+    font-size: 0.9em;
+    background: whitesmoke;
+    color: rgb(75, 95, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img{
+    width: 50px;
+}
+.header input[type="button"]{
+    font-size: 0.9em;
+    background: rgb(75, 95, 213);
+    border: 1px solid rgb(75, 95, 213);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    margin: 25px;
+}
+.search{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+.sidebar{
+    grid-area: sidebar;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sidebar input[type="search"]{
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    width: 250px;
+}
+.sidebar input[type="submit"]{
+    background: rgb(75, 95, 213);
+    border: 1px solid rgb(75, 95, 213);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    width: 220px;
+}
+.contribute{
+    background: rgb(237, 238, 249);
+    margin-top: 40px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.titulos{
+    display: flex;
+    flex-flow: row wrap;
+}
+.view-all1{
+    color: rgb(138, 131, 216);
+    border-bottom: 1px solid rgb(162, 156, 231);
+    margin-left: 580px;
+}
+.view-all2{
+    color: rgb(138, 131, 216);
+    border-bottom: 1px solid rgb(162, 156, 231);
+    margin-left: 580px;
+}
+.main{
+    grid-area: main;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.main img{
+    width: 50px;
+}
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+.main-info{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-library{
+    border: 1px solid lightgray;
+    padding: 30px 10px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: wrap column;
+}
+.featured{
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    gap: 20px;
+    display: flex;
+}
+.featured img{
+    width: 200px;
+}
+.collections1{
+    background: rgb(246, 245, 233);
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+.collections2{
+    background:  rgb(239, 241, 254);
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+.collections3{
+    background: rgb(246, 245, 233);
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+
+.letra-titulo{
+    font-size: 2em;
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+}
+.letra-textos{
+    font-size: 1.2em;
+    color: rgb(6, 14, 62);
+    font-weight: bold;
+}
+.letra-mediana{
+    font-size: 1.6em;
+}
+.letra-footer{
+    font-size: 2em;
+    font-weight: bold;
+}
+.link{
+    font-size: 0.9em;
+    color: rgb(138, 131, 216);
+    font-weight: bold;
+}
+.nito{
+    font-weight: bold;
+}
